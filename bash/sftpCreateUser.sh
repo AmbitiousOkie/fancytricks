@@ -1,8 +1,3 @@
-# Create SFTP User on the Server
-
-Must be run from the server.
-
-```
 #!/bin/bash
 
 # Define the username
@@ -43,5 +38,3 @@ sudo chown $username:$username /home/$username/.ssh/authorized_keys
 
 echo "User $username created and configured for SFTP access only."
 echo "SSH key pair generated in /root/.ssh/$username/"
-
-```
